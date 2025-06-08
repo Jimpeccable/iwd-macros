@@ -29,7 +29,7 @@
     {
       "name": "iwd-macros",
       "label": "IWD Macros",
-      "path": "packs/iwd-macros/000005.db",
+      "path": "packs/iwd-macros/000005.ldb",
       "type": "Macro",
       "system": "dnd5e"
     }
