@@ -1,34 +1,57 @@
 {
   "id": "iwd-macros",
-  "title": "IWD-Macros",
+  "title": "IWD Macros",
+  "description": "Icewind Dale Macros for ease of play",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "12",
+    "maximum": "12"
   },
-  "description": "Icewind Dale Macros for ease",
   "authors": [
     {
       "name": "Jimpeccable",
+      "discord": "",
       "flags": {}
     }
   ],
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
   "packs": [
     {
       "name": "iwd-macros",
       "label": "IWD Macros",
-      "path": "packs/iwd-macros/000005.ldb",  // Updated to match your actual file (000005.ldb)
+      "path": "packs/iwd-macros.db",
       "type": "Macro",
+      "private": false,
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
       "flags": {}
     }
   ],
-  // Required for GitHub installation:
-  "url": "https://github.com/Jimpeccable/iwd-macros",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": []
+  },
+  "socket": false,
   "manifest": "https://raw.githubusercontent.com/Jimpeccable/iwd-macros/main/module.json",
-  "download": "https://github.com/Jimpeccable/iwd-macros/releases/download/v1.0.0/iwd-macros.zip"
+  "download": "https://github.com/Jimpeccable/iwd-macros/releases/download/v1.0.0/iwd-macros.zip",
+  "url": "https://github.com/Jimpeccable/iwd-macros",
+  "readme": "https://raw.githubusercontent.com/Jimpeccable/iwd-macros/main/README.md",
+  "bugs": "https://github.com/Jimpeccable/iwd-macros/issues",
+  "changelog": "https://raw.githubusercontent.com/Jimpeccable/iwd-macros/main/CHANGELOG.md",
+  "license": "https://raw.githubusercontent.com/Jimpeccable/iwd-macros/main/LICENSE",
+  "flags": {
+    "allowBugReporter": true
+  }
 }
