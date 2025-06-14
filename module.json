@@ -1,43 +1,37 @@
 {
-  "id": "iwd-macros",
-  "title": "IWD Macros",
-  "description": "Icewind Dale Macros for ease of play",
+  "id": "icewind-dale-macros",
+  "title": "Icewind Dale: Enhanced GM Tools",
+  "description": "A collection of immersive macros designed specifically for Icewind Dale campaigns, featuring weather effects, survival mechanics, and atmospheric tools.",
   "version": "1.0.0",
-  "library": "false",
   "compatibility": {
-    "minimum": 10,
-    "verified": 12,
-    "maximum": 12
+    "minimum": "11",
+    "verified": "12"
   },
   "authors": [
     {
       "name": "Jimpeccable",
-      "url": "https://github.com/Jimpeccable/iwd-macros"
+      "discord": "jimpeccable"
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ],
-    "requires": []
-  },
-  "packs": [
-    {
-      "name": "iwd-macros",
-      "label": "IWD Macros",
-      "path": "packs/iwd-macros/000005.ldb",
-      "type": "Macro",
-      "system": "dnd5e"
-    }
+  "scripts": [
+    "./scripts/AvalancheTracker.js",
+    "./scripts/BlizzardTracker.js",
+    "./scripts/IWD-Light.js",
+    "./scripts/IWD-ReputationTracker.js",
+    "./scripts/IWD-Travel.js",
+    "./scripts/LoadedDice.js",
+    "./scripts/MapMarker.js",
+    "./scripts/NPCsFacePlayerMovement.js",
+    "./scripts/NPCsFacePlayers.js",
+    "./scripts/RandomSightWild.js",
+    "./scripts/RestInWild.js",
+    "./scripts/SizePicker.js",
+    "./scripts/StopAutoFace.js",
+    "./scripts/TeleportTokens.js",
+    "./scripts/TurnTokens.js",
+    "./scripts/WildernessNavigationTracker.js"
   ],
-  "languages": [],
-  "url": "https://github.com/Jimpeccable/iwd-macros",
-  "manifest": "https://raw.githubusercontent.com/Jimpeccable/iwd-macros/main/module.json",
-  "download": "https://github.com/Jimpeccable/iwd-macros/archive/refs/heads/main.zip",
-  "license": "",
-  "readme": ""
+  "url": "https://github.com/jimpeccable/iwd-macros",
+  "manifest": "https://github.com/jimpeccable/iwd-macros/releases/latest/download/module.json",
+  "download": "https://github.com/jimpeccable/iwd-macros/releases/latest/download/icewind-dale-macros.zip"
 }
